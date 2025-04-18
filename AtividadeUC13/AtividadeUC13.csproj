@@ -52,6 +52,11 @@
     <Compile Include="Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="DubraSkateShopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DubraSkateShopDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Fornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +107,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="DubraSkateShopDataSet.xsc">
+      <DependentUpon>DubraSkateShopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DubraSkateShopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DubraSkateShopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DubraSkateShopDataSet.xss">
+      <DependentUpon>DubraSkateShopDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

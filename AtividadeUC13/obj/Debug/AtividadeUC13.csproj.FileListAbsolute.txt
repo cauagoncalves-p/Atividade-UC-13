@@ -1,0 +1,14 @@
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\bin\Debug\AtividadeUC13.exe.config
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\bin\Debug\AtividadeUC13.exe
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\bin\Debug\AtividadeUC13.pdb
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.csproj.AssemblyReference.cache
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.Clientes.resources
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.Fornecedor.resources
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.ItensPedido.resources
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.Pedido.resources
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.Produtos.resources
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.Properties.Resources.resources
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.csproj.GenerateResource.cache
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.csproj.CoreCompileInputs.cache
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.exe
+C:\Users\cauag\source\repos\DubrasaSkateShop\AtividadeUC13\obj\Debug\AtividadeUC13.pdb
