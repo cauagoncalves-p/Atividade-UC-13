@@ -2270,7 +2270,7 @@ namespace AtividadeUC13 {
 
             public override string ToString()
             {
-                return $"{this.Id_cliente} - {this.Nome}"; 
+                return $"{this.Id_cliente} - {this.Nome}";
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
