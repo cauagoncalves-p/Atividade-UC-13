@@ -110,7 +110,7 @@ namespace AtividadeUC13
                 atualizarBanco();
                 limparcampos();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Campo selecionado faz relação com outra tabela", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;

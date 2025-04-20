@@ -2267,12 +2267,7 @@ namespace AtividadeUC13 {
                     this[this.tableCliente.Id_clienteColumn] = value;
                 }
             }
-
-            public override string ToString()
-            {
-                return $"{this.Id_cliente} - {this.Nome}";
-            }
-
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Nome {
@@ -2408,7 +2403,12 @@ namespace AtividadeUC13 {
                     this[this.tableFornecedor.Id_fornecedorColumn] = value;
                 }
             }
-            
+
+            public override string ToString()
+            {
+                return $"{this.Id_fornecedor} - {this.Nome}"; 
+            }
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Nome {
@@ -2659,7 +2659,12 @@ namespace AtividadeUC13 {
                     base(rb) {
                 this.tablePedido = ((PedidoDataTable)(this.Table));
             }
-            
+
+            public override string ToString()
+            {
+                return $"{this.Id_pedido}"; 
+            }
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int Id_pedido {
@@ -3846,12 +3851,19 @@ SELECT Id_fornecedor, Nome, Email, CNPJ, Endereco, Cidade, Estado, UF, Pais FROM
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT Id_fornecedor, Nome, Email, CNPJ, Endereco, Cidade, Estado, UF, Pais FROM " +
                 "dbo.Fornecedor";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "DELETE FROM [dbo].[Fornecedor] WHERE (([Id_fornecedor] = @Original_Id_fornecedor)" +
+                " AND ([Email] = @Original_Email))";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Id_fornecedor", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "Id_fornecedor", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Email", global::System.Data.SqlDbType.VarChar, 100, global::System.Data.ParameterDirection.Input, 0, 0, "Email", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4206,6 +4218,36 @@ SELECT Id_fornecedor, Nome, Email, CNPJ, Endereco, Cidade, Estado, UF, Pais FROM
                     string Original_UF, 
                     string Original_Pais) {
             return this.Update(Nome, Email, CNPJ, Endereco, Cidade, Estado, UF, Pais, Original_Id_fornecedor, Original_Nome, Original_Email, Original_CNPJ, Original_Endereco, Original_Cidade, Original_Estado, Original_UF, Original_Pais, Original_Id_fornecedor);
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, false)]
+        public virtual int DeletarPorID(int Original_Id_fornecedor, string Original_Email) {
+            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[1];
+            command.Parameters[0].Value = ((int)(Original_Id_fornecedor));
+            if ((Original_Email == null)) {
+                throw new global::System.ArgumentNullException("Original_Email");
+            }
+            else {
+                command.Parameters[1].Value = ((string)(Original_Email));
+            }
+            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
+            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                command.Connection.Open();
+            }
+            int returnValue;
+            try {
+                returnValue = command.ExecuteNonQuery();
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    command.Connection.Close();
+                }
+            }
+            return returnValue;
         }
     }
     

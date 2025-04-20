@@ -42,8 +42,6 @@
             this.lblEstado = new System.Windows.Forms.Label();
             this.txtEndereco = new System.Windows.Forms.TextBox();
             this.lblEndereco = new System.Windows.Forms.Label();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
-            this.lblTelefone = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.txtcnpj = new System.Windows.Forms.TextBox();
@@ -84,6 +82,7 @@
             this.btnExcluir.TabIndex = 81;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnLimpar
             // 
@@ -94,6 +93,7 @@
             this.btnLimpar.TabIndex = 80;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnAtualizar
             // 
@@ -104,6 +104,7 @@
             this.btnAtualizar.TabIndex = 79;
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // btnAdicionar
             // 
@@ -114,6 +115,7 @@
             this.btnAdicionar.TabIndex = 78;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // txtCidade
             // 
@@ -195,30 +197,10 @@
             this.lblEndereco.TabIndex = 70;
             this.lblEndereco.Text = "Endereço completo";
             // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(1083, 63);
-            this.txtTelefone.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(215, 30);
-            this.txtTelefone.TabIndex = 69;
-            // 
-            // lblTelefone
-            // 
-            this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefone.Location = new System.Drawing.Point(1078, 26);
-            this.lblTelefone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(89, 25);
-            this.lblTelefone.TabIndex = 68;
-            this.lblTelefone.Text = "Telefone";
-            // 
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(773, 63);
+            this.txtEmail.Location = new System.Drawing.Point(924, 63);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(268, 30);
@@ -228,7 +210,7 @@
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(767, 26);
+            this.lblEmail.Location = new System.Drawing.Point(920, 26);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(60, 25);
@@ -238,7 +220,7 @@
             // txtcnpj
             // 
             this.txtcnpj.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcnpj.Location = new System.Drawing.Point(513, 63);
+            this.txtcnpj.Location = new System.Drawing.Point(590, 63);
             this.txtcnpj.Margin = new System.Windows.Forms.Padding(4);
             this.txtcnpj.Name = "txtcnpj";
             this.txtcnpj.Size = new System.Drawing.Size(217, 30);
@@ -248,7 +230,7 @@
             // 
             this.lblCnpj.AutoSize = true;
             this.lblCnpj.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCnpj.Location = new System.Drawing.Point(507, 26);
+            this.lblCnpj.Location = new System.Drawing.Point(594, 26);
             this.lblCnpj.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCnpj.Name = "lblCnpj";
             this.lblCnpj.Size = new System.Drawing.Size(65, 25);
@@ -268,7 +250,7 @@
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(259, 63);
+            this.txtNome.Location = new System.Drawing.Point(275, 63);
             this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(217, 30);
@@ -278,7 +260,7 @@
             // 
             this.lblNome.AutoSize = true;
             this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(254, 26);
+            this.lblNome.Location = new System.Drawing.Point(270, 26);
             this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(153, 25);
@@ -306,6 +288,7 @@
             this.lboDadosFornecedor.Name = "lboDadosFornecedor";
             this.lboDadosFornecedor.Size = new System.Drawing.Size(1279, 254);
             this.lboDadosFornecedor.TabIndex = 59;
+            this.lboDadosFornecedor.SelectedValueChanged += new System.EventHandler(this.lboDadosFornecedor_SelectedValueChanged);
             // 
             // Fornecedor
             // 
@@ -326,8 +309,6 @@
             this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.lblEndereco);
-            this.Controls.Add(this.txtTelefone);
-            this.Controls.Add(this.lblTelefone);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.txtcnpj);
@@ -360,8 +341,6 @@
         private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.TextBox txtEndereco;
         private System.Windows.Forms.Label lblEndereco;
-        private System.Windows.Forms.TextBox txtTelefone;
-        private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox txtcnpj;

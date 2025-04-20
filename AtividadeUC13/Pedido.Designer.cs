@@ -34,10 +34,10 @@
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.txtStatus = new System.Windows.Forms.TextBox();
             this.lblStatus = new System.Windows.Forms.Label();
-            this.txtSobrenome = new System.Windows.Forms.TextBox();
+            this.txtDataPedido = new System.Windows.Forms.TextBox();
             this.lblDataPedido = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.txtDataPedido = new System.Windows.Forms.TextBox();
+            this.txtIDCliente = new System.Windows.Forms.TextBox();
             this.lblIDCliente = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
             this.lboDadosPedidos = new System.Windows.Forms.ListBox();
@@ -82,6 +82,7 @@
             this.btnAdicionar.TabIndex = 78;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // txtStatus
             // 
@@ -103,14 +104,14 @@
             this.lblStatus.TabIndex = 66;
             this.lblStatus.Text = "Status";
             // 
-            // txtSobrenome
+            // txtDataPedido
             // 
-            this.txtSobrenome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSobrenome.Location = new System.Drawing.Point(683, 65);
-            this.txtSobrenome.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSobrenome.Name = "txtSobrenome";
-            this.txtSobrenome.Size = new System.Drawing.Size(217, 30);
-            this.txtSobrenome.TabIndex = 65;
+            this.txtDataPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDataPedido.Location = new System.Drawing.Point(683, 65);
+            this.txtDataPedido.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDataPedido.Name = "txtDataPedido";
+            this.txtDataPedido.Size = new System.Drawing.Size(217, 30);
+            this.txtDataPedido.TabIndex = 65;
             // 
             // lblDataPedido
             // 
@@ -133,14 +134,14 @@
             this.txtID.Size = new System.Drawing.Size(176, 30);
             this.txtID.TabIndex = 63;
             // 
-            // txtDataPedido
+            // txtIDCliente
             // 
-            this.txtDataPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDataPedido.Location = new System.Drawing.Point(344, 65);
-            this.txtDataPedido.Margin = new System.Windows.Forms.Padding(4);
-            this.txtDataPedido.Name = "txtDataPedido";
-            this.txtDataPedido.Size = new System.Drawing.Size(217, 30);
-            this.txtDataPedido.TabIndex = 62;
+            this.txtIDCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDCliente.Location = new System.Drawing.Point(344, 65);
+            this.txtIDCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIDCliente.Name = "txtIDCliente";
+            this.txtIDCliente.Size = new System.Drawing.Size(217, 30);
+            this.txtIDCliente.TabIndex = 62;
             // 
             // lblIDCliente
             // 
@@ -174,6 +175,7 @@
             this.lboDadosPedidos.Name = "lboDadosPedidos";
             this.lboDadosPedidos.Size = new System.Drawing.Size(1279, 254);
             this.lboDadosPedidos.TabIndex = 59;
+            this.lboDadosPedidos.SelectedValueChanged += new System.EventHandler(this.lboDadosPedidos_SelectedValueChanged);
             // 
             // Pedido
             // 
@@ -186,10 +188,10 @@
             this.Controls.Add(this.btnAdicionar);
             this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.lblStatus);
-            this.Controls.Add(this.txtSobrenome);
+            this.Controls.Add(this.txtDataPedido);
             this.Controls.Add(this.lblDataPedido);
             this.Controls.Add(this.txtID);
-            this.Controls.Add(this.txtDataPedido);
+            this.Controls.Add(this.txtIDCliente);
             this.Controls.Add(this.lblIDCliente);
             this.Controls.Add(this.lblID);
             this.Controls.Add(this.lboDadosPedidos);
@@ -209,10 +211,10 @@
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.TextBox txtStatus;
         private System.Windows.Forms.Label lblStatus;
-        private System.Windows.Forms.TextBox txtSobrenome;
+        private System.Windows.Forms.TextBox txtDataPedido;
         private System.Windows.Forms.Label lblDataPedido;
         private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.TextBox txtDataPedido;
+        private System.Windows.Forms.TextBox txtIDCliente;
         private System.Windows.Forms.Label lblIDCliente;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.ListBox lboDadosPedidos;
