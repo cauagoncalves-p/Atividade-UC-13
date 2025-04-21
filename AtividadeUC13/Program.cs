@@ -16,7 +16,7 @@ namespace AtividadeUC13
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Pedido());
+            Application.Run(new Produtos());
         }
     }
 }

@@ -58,6 +58,7 @@
             this.btnExcluir.TabIndex = 81;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnLimpar
             // 
@@ -68,6 +69,7 @@
             this.btnLimpar.TabIndex = 80;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnAtualizar
             // 
@@ -78,6 +80,7 @@
             this.btnAtualizar.TabIndex = 79;
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // btnAdicionar
             // 
@@ -88,6 +91,7 @@
             this.btnAdicionar.TabIndex = 78;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // txtIdFornecedor
             // 
@@ -240,6 +244,7 @@
             this.lboDadosProdutos.Name = "lboDadosProdutos";
             this.lboDadosProdutos.Size = new System.Drawing.Size(1279, 254);
             this.lboDadosProdutos.TabIndex = 59;
+            this.lboDadosProdutos.SelectedValueChanged += new System.EventHandler(this.lboDadosProdutos_SelectedValueChanged);
             // 
             // Produtos
             // 

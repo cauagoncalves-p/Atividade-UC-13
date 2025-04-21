@@ -15,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\atividadeuc13\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|c:\\users\\cauag\\source\\repos\\dubrasaskateshop\\atividadeuc13\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\atividadeuc13\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\atividadeuc13\\dubraskateshopdataset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\dubraskateshopdataset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|c:\\users\\cauag\\source\\repos\\dubrasaskateshop\\atividadeuc13\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|c:\\users\\cauag\\source\\repos\\dubrasaskateshop\\atividadeuc13\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -33,22 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|c:\\users\\cauag\\source\\repos\\dubrasaskateshop\\atividadeuc13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|c:\\users\\cauag\\source\\repos\\dubrasaskateshop\\atividadeuc13\\itenspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\itenspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|c:\\users\\cauag\\source\\repos\\dubrasaskateshop\\atividadeuc13\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|c:\\users\\cauag\\source\\repos\\dubrasaskateshop\\atividadeuc13\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\atividadeuc13\\dubraskateshopdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{79CDFA5C-0F45-4D73-B4AB-9BD49B8E546F}|AtividadeUC13\\AtividadeUC13.csproj|solutionrelative:atividadeuc13\\dubraskateshopdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,70 +42,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Clientes.cs",
-              "RelativeDocumentMoniker": "AtividadeUC13\\Clientes.cs",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Clientes.cs",
-              "RelativeToolTip": "AtividadeUC13\\Clientes.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAWwD8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T23:04:39.563Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Fornecedor.cs",
+              "DocumentIndex": 3,
+              "Title": "Fornecedor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Fornecedor.cs",
               "RelativeDocumentMoniker": "AtividadeUC13\\Fornecedor.cs",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Fornecedor.cs",
-              "RelativeToolTip": "AtividadeUC13\\Fornecedor.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAArwDEAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Fornecedor.cs [Design]",
+              "RelativeToolTip": "AtividadeUC13\\Fornecedor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:40:49.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DubraSkateShopDataSet.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\DubraSkateShopDataSet.Designer.cs",
-              "RelativeDocumentMoniker": "AtividadeUC13\\DubraSkateShopDataSet.Designer.cs",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\DubraSkateShopDataSet.Designer.cs",
-              "RelativeToolTip": "AtividadeUC13\\DubraSkateShopDataSet.Designer.cs",
-              "ViewState": "AgIAAF0KAAAAAAAAAAAnwHIKAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T23:06:48.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ItensPedido.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\ItensPedido.cs",
-              "RelativeDocumentMoniker": "AtividadeUC13\\ItensPedido.cs",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\ItensPedido.cs [Design]",
-              "RelativeToolTip": "AtividadeUC13\\ItensPedido.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T15:21:45.774Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pedido.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Pedido.cs",
-              "RelativeDocumentMoniker": "AtividadeUC13\\Pedido.cs",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Pedido.cs [Design]",
-              "RelativeToolTip": "AtividadeUC13\\Pedido.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T15:21:19.26Z",
+              "WhenOpened": "2025-04-21T02:46:17.802Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -132,21 +64,21 @@
               "RelativeDocumentMoniker": "AtividadeUC13\\Pedido.cs",
               "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Pedido.cs",
               "RelativeToolTip": "AtividadeUC13\\Pedido.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAuwHkAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T15:21:35.316Z",
+              "WhenOpened": "2025-04-21T02:46:09.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Fornecedor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "AtividadeUC13\\Fornecedor.cs",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Fornecedor.cs [Design]",
-              "RelativeToolTip": "AtividadeUC13\\Fornecedor.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Pedido.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Pedido.cs",
+              "RelativeDocumentMoniker": "AtividadeUC13\\Pedido.cs",
+              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Pedido.cs [Design]",
+              "RelativeToolTip": "AtividadeUC13\\Pedido.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T23:26:54.198Z",
+              "WhenOpened": "2025-04-21T02:46:07.922Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -157,35 +89,10 @@
               "RelativeDocumentMoniker": "AtividadeUC13\\Program.cs",
               "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Program.cs",
               "RelativeToolTip": "AtividadeUC13\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:43:15.154Z",
+              "WhenOpened": "2025-04-21T02:37:48.823Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Produtos.cs",
-              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Produtos.cs",
-              "RelativeDocumentMoniker": "AtividadeUC13\\Produtos.cs",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Produtos.cs",
-              "RelativeToolTip": "AtividadeUC13\\Produtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T15:28:06.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Clientes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Clientes.cs",
-              "RelativeDocumentMoniker": "AtividadeUC13\\Clientes.cs",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Clientes.cs [Design]",
-              "RelativeToolTip": "AtividadeUC13\\Clientes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:49:17.732Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -196,19 +103,46 @@
               "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Produtos.cs [Design]",
               "RelativeToolTip": "AtividadeUC13\\Produtos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T15:26:14.03Z",
+              "WhenOpened": "2025-04-21T02:21:53.867Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DubraSkateShopDataSet.xsd",
-              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\DubraSkateShopDataSet.xsd",
-              "RelativeDocumentMoniker": "AtividadeUC13\\DubraSkateShopDataSet.xsd",
-              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\DubraSkateShopDataSet.xsd",
-              "RelativeToolTip": "AtividadeUC13\\DubraSkateShopDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-04-18T23:04:26.442Z",
+              "DocumentIndex": 2,
+              "Title": "Fornecedor.cs",
+              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Fornecedor.cs",
+              "RelativeDocumentMoniker": "AtividadeUC13\\Fornecedor.cs",
+              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Fornecedor.cs",
+              "RelativeToolTip": "AtividadeUC13\\Fornecedor.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowF4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:51:46.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produtos.cs",
+              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Produtos.cs",
+              "RelativeDocumentMoniker": "AtividadeUC13\\Produtos.cs",
+              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\Produtos.cs",
+              "RelativeToolTip": "AtividadeUC13\\Produtos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T15:28:06.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DubraSkateShopDataSet.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\DubraSkateShopDataSet.Designer.cs",
+              "RelativeDocumentMoniker": "AtividadeUC13\\DubraSkateShopDataSet.Designer.cs",
+              "ToolTip": "C:\\Users\\cauag\\source\\repos\\DubrasaSkateShop\\AtividadeUC13\\DubraSkateShopDataSet.Designer.cs",
+              "RelativeToolTip": "AtividadeUC13\\DubraSkateShopDataSet.Designer.cs",
+              "ViewState": "AgIAAN0KAAAAAAAAAIAwwOsKAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T23:06:48.641Z",
               "EditorCaption": ""
             }
           ]

@@ -67,5 +67,66 @@ namespace AtividadeUC13
             limparcampos();
             atualizarBanco();
         }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+
+            if (lboDadosPedidos.SelectedItem == null)
+            {
+                MessageBox.Show("Selecione qual campo sera excluido", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            PedidoRow excluirPedido = lboDadosPedidos.SelectedItem as PedidoRow;
+            PedidoTableAdapter pedido = new PedidoTableAdapter();
+
+            try
+            {
+                pedido.Delete(excluirPedido.Id_pedido, excluirPedido.Id_cliente,excluirPedido.Data_pedido);
+                atualizarBanco();
+                limparcampos();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Campo selecionado faz relação com outra tabela", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+        }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+            if (lboDadosPedidos.SelectedItem == null)
+            {
+                MessageBox.Show("Selecione qual elemento você quer atualizar", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
+            PedidoRow dadosAtualizar = lboDadosPedidos.SelectedItem as PedidoRow;
+            PedidoTableAdapter atualizar = new PedidoTableAdapter();
+            int id_cliente = int.Parse(txtIDCliente.Text);
+            DateTime data_pedido = Convert.ToDateTime(txtDataPedido.Text);
+            // Atualizando os dados 
+            dadosAtualizar.Data_pedido = data_pedido;
+            dadosAtualizar.Id_cliente = id_cliente;
+            atualizar.Update(dadosAtualizar);
+
+            atualizarBanco();
+            limparcampos();
+
+            MessageBox.Show("Atualizado com sucesso", "PRONTO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            if (txtID.Text == "" && txtIDCliente.Text == "" && txtStatus.Text == "" && txtDataPedido.Text == "")
+            {
+                MessageBox.Show("Não há campos para serem limpos", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            limparcampos();
+            atualizarBanco();
+        }
     }
 }

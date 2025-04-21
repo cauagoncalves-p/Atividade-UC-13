@@ -2790,7 +2790,12 @@ namespace AtividadeUC13 {
                     this[this.tableProdutos.Id_produtoColumn] = value;
                 }
             }
-            
+
+            public override string ToString()
+            {
+                return $"{this.Id_produto} - {this.Nome}"; 
+            }
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Nome {
