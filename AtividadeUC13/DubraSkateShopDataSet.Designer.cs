@@ -2267,9 +2267,15 @@ namespace AtividadeUC13 {
                     this[this.tableCliente.Id_clienteColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+
+            public override string ToString()
+            {
+                return $"{this.Id_cliente} - {this.Nome}"; 
+            }
+
             public string Nome {
                 get {
                     return ((string)(this[this.tableCliente.NomeColumn]));
@@ -2403,14 +2409,16 @@ namespace AtividadeUC13 {
                     this[this.tableFornecedor.Id_fornecedorColumn] = value;
                 }
             }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+
 
             public override string ToString()
             {
-                return $"{this.Id_fornecedor} - {this.Nome}"; 
+                return $"{this.Id_fornecedor} - {this.Nome}";
             }
 
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Nome {
                 get {
                     return ((string)(this[this.tableFornecedor.NomeColumn]));
@@ -2522,9 +2530,14 @@ namespace AtividadeUC13 {
                     base(rb) {
                 this.tableItensPedido = ((ItensPedidoDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+
+            public override string ToString()
+            {
+                return $"{this.Id_item_pedido}";
+            }
             public int Id_item_pedido {
                 get {
                     return ((int)(this[this.tableItensPedido.Id_item_pedidoColumn]));
@@ -2659,14 +2672,16 @@ namespace AtividadeUC13 {
                     base(rb) {
                 this.tablePedido = ((PedidoDataTable)(this.Table));
             }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+
 
             public override string ToString()
             {
-                return $"{this.Id_pedido}"; 
+                return $"{this.Id_pedido}";
             }
 
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int Id_pedido {
                 get {
                     return ((int)(this[this.tablePedido.Id_pedidoColumn]));
@@ -2782,6 +2797,12 @@ namespace AtividadeUC13 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+
+
+            public override string ToString()
+            {
+                return $"{this.Id_produto} - {this.Nome}";
+            }
             public int Id_produto {
                 get {
                     return ((int)(this[this.tableProdutos.Id_produtoColumn]));
@@ -2790,12 +2811,7 @@ namespace AtividadeUC13 {
                     this[this.tableProdutos.Id_produtoColumn] = value;
                 }
             }
-
-            public override string ToString()
-            {
-                return $"{this.Id_produto} - {this.Nome}"; 
-            }
-
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Nome {
@@ -3267,7 +3283,7 @@ SELECT Id_cliente, Nome, Sobrenome, Email, Telefone, Endereco, Cidade, Estado, U
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString;
+            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3850,25 +3866,18 @@ SELECT Id_fornecedor, Nome, Email, CNPJ, Endereco, Cidade, Estado, UF, Pais FROM
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString;
+            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT Id_fornecedor, Nome, Email, CNPJ, Endereco, Cidade, Estado, UF, Pais FROM " +
                 "dbo.Fornecedor";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
-            this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "DELETE FROM [dbo].[Fornecedor] WHERE (([Id_fornecedor] = @Original_Id_fornecedor)" +
-                " AND ([Email] = @Original_Email))";
-            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Id_fornecedor", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "Id_fornecedor", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Email", global::System.Data.SqlDbType.VarChar, 100, global::System.Data.ParameterDirection.Input, 0, 0, "Email", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4224,36 +4233,6 @@ SELECT Id_fornecedor, Nome, Email, CNPJ, Endereco, Cidade, Estado, UF, Pais FROM
                     string Original_Pais) {
             return this.Update(Nome, Email, CNPJ, Endereco, Cidade, Estado, UF, Pais, Original_Id_fornecedor, Original_Nome, Original_Email, Original_CNPJ, Original_Endereco, Original_Cidade, Original_Estado, Original_UF, Original_Pais, Original_Id_fornecedor);
         }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, false)]
-        public virtual int DeletarPorID(int Original_Id_fornecedor, string Original_Email) {
-            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[1];
-            command.Parameters[0].Value = ((int)(Original_Id_fornecedor));
-            if ((Original_Email == null)) {
-                throw new global::System.ArgumentNullException("Original_Email");
-            }
-            else {
-                command.Parameters[1].Value = ((string)(Original_Email));
-            }
-            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
-            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                command.Connection.Open();
-            }
-            int returnValue;
-            try {
-                returnValue = command.ExecuteNonQuery();
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    command.Connection.Close();
-                }
-            }
-            return returnValue;
-        }
     }
     
     /// <summary>
@@ -4429,7 +4408,7 @@ SELECT Id_item_pedido, Id_produto, Id_pedido, Preco, Quantidade, Descrição FRO
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString;
+            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4811,7 +4790,7 @@ SELECT Id_pedido, Id_cliente, Data_pedido, status_pedido FROM Pedido WHERE (Id_p
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString;
+            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5198,7 +5177,7 @@ SELECT Id_produto, Nome, Tipo, Preco, Quantidade, PrecoUnitario, Id_fornecedor F
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString;
+            this._connection.ConnectionString = global::AtividadeUC13.Properties.Settings.Default.DubraSkateShopConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

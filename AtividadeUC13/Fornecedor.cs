@@ -111,7 +111,8 @@ namespace AtividadeUC13
 
             try
             {
-                fornecedor.DeletarPorID(excluirFornecedor.Id_fornecedor, excluirFornecedor.Email);
+                fornecedor.Delete(excluirFornecedor.Id_fornecedor,excluirFornecedor.Nome, excluirFornecedor.Email, excluirFornecedor.CNPJ,
+                    excluirFornecedor.Endereco, excluirFornecedor.Cidade, excluirFornecedor.Estado, excluirFornecedor.UF, excluirFornecedor.Pais);
                 atualizarBanco();
                 limparcampos();
             }
